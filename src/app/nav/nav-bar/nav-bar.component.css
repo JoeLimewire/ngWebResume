@@ -1,0 +1,39 @@
+
+.navBlock{
+    width: 20%;
+    min-height:100vh;
+    background-color: #119DA4;
+    padding: 10px 0px 0px 0px;
+    float: left;
+    position: fixed;
+}
+h2{
+    color:white;
+    font-weight: 100;
+}
+img{
+    width: 20vh;
+    border-radius: 50%;
+}
+
+.navLinks{
+    /*border: black solid 5px;*/
+    padding: 0px;
+}
+ul{
+    padding: 0px;
+    
+}
+ul a{
+    display:block;
+    padding: 20px;
+    margin: 0px;
+    text-decoration: none;
+    color:white;
+}
+
+ul a:hover{
+    background-color: white;
+        color : #119DA4;
+   
+}

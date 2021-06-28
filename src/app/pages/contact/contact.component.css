@@ -1,0 +1,33 @@
+.page{
+    height:100%;
+    text-align: left;
+    padding-left: 22%;
+}
+.title{
+    text-align: right;
+    height:20vh;
+    
+    width:98%;
+}
+h2{
+    margin: 0;
+    font-size: 150px;
+}
+.pimg1{background-image:url('../../../assets/beach.jpg');}
+.pimg2{background-image:url('../../../assets/city2.jpg');}
+.pimg3{background-image:url('../../../assets/stars2.jpg')}
+.pimg1,.pimg2,.pimg3{
+    height:20vh;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p{
+    padding: 0px 50px 0px 50px;
+    line-height: 1.8em;
+}
+.footer{
+    background-color: #119DA4;
+}
