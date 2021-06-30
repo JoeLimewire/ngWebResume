@@ -1,8 +1,3 @@
-@keyframes blur{
-    to{
-        filter:blur(0rem);
-    }
-}
 
 .page{
     height:100%;
@@ -23,9 +18,8 @@
     padding: 20px;
     text-shadow: 5px;
     border-radius: 3px;
-    filter:blur(10rem);
-    animation: blur 10s infinite alternate;
-    
+    filter:blur(0rem);
+    font-style: italic;
 }
 span{
     white-space:nowrap;
@@ -38,9 +32,10 @@ h2{
     padding-right: 50px;
 }
 .pimg1{
-    background-image:url('../../../assets/city2.jpg');
+    background-image:url('../../../assets/building.jpg');
     height:100vh;
     background-color: black;
+    
 }
 .pimg2{background-image:url('../../../assets/city2.jpg');}
 .pimg3{background-image:url('../../../assets/stars2.jpg')}
